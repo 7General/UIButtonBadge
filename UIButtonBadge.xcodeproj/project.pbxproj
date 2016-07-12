@@ -13,6 +13,11 @@
 		25B682771D336DBC003110B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B682751D336DBC003110B5 /* Main.storyboard */; };
 		25B682791D336DBC003110B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B682781D336DBC003110B5 /* Assets.xcassets */; };
 		25B6827C1D336DBC003110B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B6827A1D336DBC003110B5 /* LaunchScreen.storyboard */; };
+		25B682881D336E73003110B5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B682871D336E73003110B5 /* MainViewController.m */; };
+		25B6828B1D336F35003110B5 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6828A1D336F35003110B5 /* UIButton+Badge.m */; };
+		25B6828E1D337B9B003110B5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B6828D1D337B9B003110B5 /* BaseViewController.m */; };
+		25B682911D337C71003110B5 /* ChilOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B682901D337C71003110B5 /* ChilOneViewController.m */; };
+		25B682941D337CA4003110B5 /* ChildTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B682931D337CA4003110B5 /* ChildTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		25B682781D336DBC003110B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B6827B1D336DBC003110B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B6827D1D336DBC003110B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B682861D336E73003110B5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		25B682871D336E73003110B5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		25B682891D336F35003110B5 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		25B6828A1D336F35003110B5 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		25B6828C1D337B9B003110B5 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		25B6828D1D337B9B003110B5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		25B6828F1D337C71003110B5 /* ChilOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChilOneViewController.h; sourceTree = "<group>"; };
+		25B682901D337C71003110B5 /* ChilOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChilOneViewController.m; sourceTree = "<group>"; };
+		25B682921D337CA4003110B5 /* ChildTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildTwoViewController.h; sourceTree = "<group>"; };
+		25B682931D337CA4003110B5 /* ChildTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +73,9 @@
 		25B6826B1D336DBC003110B5 /* UIButtonBadge */ = {
 			isa = PBXGroup;
 			children = (
-				25B6826F1D336DBC003110B5 /* AppDelegate.h */,
-				25B682701D336DBC003110B5 /* AppDelegate.m */,
-				25B682721D336DBC003110B5 /* ViewController.h */,
-				25B682731D336DBC003110B5 /* ViewController.m */,
-				25B682751D336DBC003110B5 /* Main.storyboard */,
+				25B682851D336E5A003110B5 /* Categary */,
+				25B682841D336E45003110B5 /* MainViewController */,
+				25B682831D336E2D003110B5 /* Basic */,
 				25B682781D336DBC003110B5 /* Assets.xcassets */,
 				25B6827A1D336DBC003110B5 /* LaunchScreen.storyboard */,
 				25B6827D1D336DBC003110B5 /* Info.plist */,
@@ -77,6 +90,42 @@
 				25B6826D1D336DBC003110B5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25B682831D336E2D003110B5 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				25B6826F1D336DBC003110B5 /* AppDelegate.h */,
+				25B682701D336DBC003110B5 /* AppDelegate.m */,
+				25B682721D336DBC003110B5 /* ViewController.h */,
+				25B682731D336DBC003110B5 /* ViewController.m */,
+				25B682751D336DBC003110B5 /* Main.storyboard */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		25B682841D336E45003110B5 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25B682861D336E73003110B5 /* MainViewController.h */,
+				25B682871D336E73003110B5 /* MainViewController.m */,
+				25B6828C1D337B9B003110B5 /* BaseViewController.h */,
+				25B6828D1D337B9B003110B5 /* BaseViewController.m */,
+				25B6828F1D337C71003110B5 /* ChilOneViewController.h */,
+				25B682901D337C71003110B5 /* ChilOneViewController.m */,
+				25B682921D337CA4003110B5 /* ChildTwoViewController.h */,
+				25B682931D337CA4003110B5 /* ChildTwoViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		25B682851D336E5A003110B5 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				25B682891D336F35003110B5 /* UIButton+Badge.h */,
+				25B6828A1D336F35003110B5 /* UIButton+Badge.m */,
+			);
+			name = Categary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B682941D337CA4003110B5 /* ChildTwoViewController.m in Sources */,
 				25B682741D336DBC003110B5 /* ViewController.m in Sources */,
+				25B6828E1D337B9B003110B5 /* BaseViewController.m in Sources */,
 				25B682711D336DBC003110B5 /* AppDelegate.m in Sources */,
+				25B6828B1D336F35003110B5 /* UIButton+Badge.m in Sources */,
 				25B6826E1D336DBC003110B5 /* main.m in Sources */,
+				25B682881D336E73003110B5 /* MainViewController.m in Sources */,
+				25B682911D337C71003110B5 /* ChilOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +354,7 @@
 				25B682821D336DBC003110B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
